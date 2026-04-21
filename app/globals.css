@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-forest: #1F3D36;
+  --color-cream: #F7F5F0;
+  --color-sage: #A3B5A0;
+  --color-charcoal: #2B2B2B;
+  --color-gold: #C6A969;
+  --color-sand: #E8E6DF;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans), Inter, system-ui, sans-serif;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-serif), "Libre Baskerville", Georgia, serif;
+    color: var(--color-forest);
+    font-weight: 500;
+  }
+
+  ::selection {
+    background-color: #1F3D36;
+    color: #F7F5F0;
+  }
+}
+
+@layer components {
+  /* Subtle organic hero gradient — calm and premium, not psychedelic */
+  .hero-gradient {
+    background:
+      radial-gradient(ellipse 80% 60% at 15% 10%, rgba(163, 181, 160, 0.22), transparent 60%),
+      radial-gradient(ellipse 70% 55% at 90% 20%, rgba(198, 169, 105, 0.12), transparent 55%),
+      radial-gradient(ellipse 90% 70% at 50% 100%, rgba(31, 61, 54, 0.06), transparent 60%),
+      linear-gradient(180deg, #F7F5F0 0%, #F0EEE6 100%);
+  }
+
+  .grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.35;
+    mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.12, 0 0 0 0 0.24, 0 0 0 0 0.21, 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .eyebrow {
+    @apply text-[0.72rem] uppercase tracking-eyebrow text-forest/70 font-medium;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 bg-forest text-cream rounded-full text-sm font-medium tracking-wide transition-all duration-300 ease-editorial hover:bg-forest/90 hover:-translate-y-0.5 hover:shadow-soft;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3.5 bg-transparent text-forest border border-forest/25 rounded-full text-sm font-medium tracking-wide transition-all duration-300 ease-editorial hover:border-forest hover:bg-forest/[0.04];
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-sm font-medium text-forest transition-colors hover:text-forest/70;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-black/[0.04] transition-all duration-500 ease-editorial;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-card hover:border-black/[0.06];
+  }
+
+  .tag {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-[0.68rem] uppercase tracking-eyebrow font-medium;
+  }
+
+  .divider-rule {
+    @apply relative flex items-center gap-4 text-forest/40;
+  }
+  .divider-rule::before,
+  .divider-rule::after {
+    content: "";
+    @apply h-px flex-1 bg-forest/15;
+  }
+
+  .prose-article {
+    @apply max-w-reading;
+  }
+  .prose-article p {
+    @apply text-[1.0625rem] leading-[1.75] text-charcoal/85 mb-5;
+  }
+  .prose-article h2 {
+    @apply text-h1 mt-14 mb-5;
+  }
+  .prose-article h3 {
+    @apply font-serif text-[1.375rem] leading-snug text-forest mt-10 mb-3 font-medium;
+  }
+  .prose-article ul {
+    @apply space-y-2.5 mb-6;
+  }
+  .prose-article ul li {
+    @apply relative pl-5 text-[1.0625rem] leading-[1.7] text-charcoal/85;
+  }
+  .prose-article ul li::before {
+    content: "";
+    @apply absolute left-0 top-[0.7rem] w-2 h-px bg-gold;
+  }
+  .prose-article a {
+    @apply text-forest underline decoration-gold decoration-1 underline-offset-4 transition-colors hover:text-forest/70;
+  }
+}
+
+@layer utilities {
+  .container-editorial {
+    @apply mx-auto px-6 sm:px-8 lg:px-12;
+    max-width: 80rem;
+  }
+}
