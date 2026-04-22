@@ -3,6 +3,8 @@ import { Inter, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
+import { organizationSchema, websiteSchema, SITE_URL } from "@/lib/seo";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -19,12 +21,16 @@ const serif = Libre_Baskerville({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mushrooms & Stuff — Scientific clarity for better health decisions",
+    default:
+      "Mushrooms & Stuff — Functional mushrooms, explained by the research",
     template: "%s — Mushrooms & Stuff",
   },
   description:
-    "We translate research on functional mushrooms — Lion's Mane, Reishi, Cordyceps, Chaga, Turkey Tail — into simple, actionable insights for focus, stress, energy, immunity, and longevity.",
-  metadataBase: new URL("https://mushroomsandstuff.com"),
+    "Evidence-based guidance on functional mushrooms — Lion's Mane, Reishi, Cordyceps, Chaga, and Turkey Tail — for focus, stress, energy, immunity, and longevity.",
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
@@ -60,6 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
+        <JsonLd data={[organizationSchema(), websiteSchema()]} />
         <Navigation />
         <main>{children}</main>
         <Footer />

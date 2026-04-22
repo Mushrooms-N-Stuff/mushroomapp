@@ -13,13 +13,15 @@ export default function Hero() {
             </span>
           </p>
 
-          <h1 className="font-serif text-hero text-forest max-w-[16ch]">
-            Scientific clarity for better health decisions.
+          <h1 className="font-serif text-hero text-forest max-w-[18ch]">
+            Functional mushrooms, explained by the research.
           </h1>
 
           <p className="mt-7 max-w-2xl text-[1.125rem] leading-relaxed text-charcoal/75">
-            We translate research on functional mushrooms into simple, actionable
-            insights for focus, stress, energy, immunity, and longevity.
+            Evidence-based guidance on Lion&rsquo;s Mane, Reishi, Cordyceps,
+            Chaga, and Turkey Tail &mdash; for focus, stress, energy, immunity,
+            and longevity. Peer-reviewed science, translated clearly, with no
+            hype.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">

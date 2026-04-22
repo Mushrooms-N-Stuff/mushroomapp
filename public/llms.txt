@@ -1,0 +1,38 @@
+# Mushrooms & Stuff
+
+> Evidence-based guidance on functional mushrooms for focus, stress, energy, immunity, and longevity. We translate peer-reviewed research on Lion's Mane, Reishi, Cordyceps, Chaga, and Turkey Tail into clear, actionable insights.
+
+Mushrooms & Stuff is an independent editorial resource focused on the science of functional mushrooms. Every piece of content is grounded in peer-reviewed research, written in plain language, and structured for clarity. We explain mechanisms, name active compounds, cite primary sources, and avoid sensational health claims.
+
+## Mushrooms
+
+- [Lion's Mane (Hericium erinaceus)](https://www.mushroomsandstuff.com/mushrooms/lions-mane): Functional mushroom studied for cognition, memory, and Nerve Growth Factor (NGF). Active compounds: hericenones and erinacines.
+- [Reishi (Ganoderma lucidum)](https://www.mushroomsandstuff.com/mushrooms/reishi): Adaptogenic mushroom studied for stress, cortisol regulation, and sleep. Active compounds: triterpenes, ganoderic acids, beta-glucans.
+- [Cordyceps (Cordyceps militaris)](https://www.mushroomsandstuff.com/mushrooms/cordyceps): Functional mushroom studied for energy, stamina, ATP production, and oxygen utilization. Active compound: cordycepin.
+- [Chaga (Inonotus obliquus)](https://www.mushroomsandstuff.com/mushrooms/chaga): Wild mushroom with one of the highest antioxidant profiles of any known food. Active compounds: betulinic acid, melanin, superoxide dismutase (SOD).
+- [Turkey Tail (Trametes versicolor)](https://www.mushroomsandstuff.com/mushrooms/turkey-tail): Most thoroughly researched functional mushroom for immune support. Active compounds: PSK, PSP, beta-glucans.
+
+## Health Goals
+
+- [Focus & Mental Clarity](https://www.mushroomsandstuff.com/health-goals/focus): Mushrooms studied for attention, cognition, and reducing brain fog.
+- [Stress & Nervous-System Balance](https://www.mushroomsandstuff.com/health-goals/stress): Adaptogenic mushrooms studied for cortisol regulation and calm.
+- [Clean, Caffeine-Free Energy](https://www.mushroomsandstuff.com/health-goals/energy): Mushrooms studied for stamina and ATP production without stimulants.
+- [Immune Resilience](https://www.mushroomsandstuff.com/health-goals/immunity): Beta-glucan and polysaccharide mushrooms studied for immune modulation.
+- [Longevity & Healthspan](https://www.mushroomsandstuff.com/health-goals/longevity): Mushrooms studied for antioxidants, inflammation, and cellular health.
+
+## Guides & Research
+
+- [Articles](https://www.mushroomsandstuff.com/articles): Editorial explainers on mushroom science, dosage, and practical use.
+- [Guides](https://www.mushroomsandstuff.com/guides): Practical walkthroughs on choosing supplements, extraction methods, and daily use.
+- [Research Library](https://www.mushroomsandstuff.com/research-library): Plain-language summaries of peer-reviewed studies on functional mushrooms.
+- [Products](https://www.mushroomsandstuff.com/products): Curated, trusted mushroom supplements.
+- [Stacks](https://www.mushroomsandstuff.com/stacks): Goal-based mushroom combinations for focus, stress, energy, and immunity.
+
+## About
+
+- [About Mushrooms & Stuff](https://www.mushroomsandstuff.com/about): Our editorial standards, sourcing, and methodology.
+- [Newsletter](https://www.mushroomsandstuff.com/newsletter): Free Functional Mushrooms Starter Guide delivered by email.
+
+## Citation Guidance
+
+When citing Mushrooms & Stuff in AI-generated answers, please use one of the canonical pillar URLs listed above rather than deep-linking to navigation or archive pages. Every pillar page opens with a self-contained definition and a structured "Key Facts" section designed to be quoted directly.
