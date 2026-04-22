@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { mushrooms, healthGoals, articles, stacks } from "@/lib/content";
+import { comparisons } from "@/lib/comparisons";
 import { SITE_URL } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -10,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/mushrooms`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/health-goals`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/guides`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/compare`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/research-library`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/products`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/stacks`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
@@ -45,11 +47,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const comparePages: MetadataRoute.Sitemap = comparisons.map((c) => ({
+    url: `${SITE_URL}/compare/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   return [
     ...staticPages,
     ...mushroomPages,
     ...goalPages,
     ...articlePages,
     ...stackPages,
+    ...comparePages,
   ];
 }

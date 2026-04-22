@@ -4,7 +4,10 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { organizationSchema, websiteSchema, SITE_URL } from "@/lib/seo";
+
+const GA_MEASUREMENT_ID = "G-NSRXJ1V0LK";
 
 const sans = Inter({
   subsets: ["latin"],
@@ -67,6 +70,7 @@ export default function RootLayout({
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
         <JsonLd data={[organizationSchema(), websiteSchema()]} />
+        <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
         <Navigation />
         <main>{children}</main>
         <Footer />
