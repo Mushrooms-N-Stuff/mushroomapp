@@ -19,7 +19,7 @@ export default function Hero() {
 
           <p className="mt-7 max-w-2xl text-[1.125rem] leading-relaxed text-charcoal/75">
             Evidence-based guidance on Lion&rsquo;s Mane, Reishi, Cordyceps,
-            Chaga, and Turkey Tail &mdash; for focus, stress, energy, immunity,
+            Chaga, and Turkey Tail, for focus, stress, energy, immunity,
             and longevity. Peer-reviewed science, translated clearly, with no
             hype.
           </p>
@@ -34,7 +34,7 @@ export default function Hero() {
             </Link>
           </div>
 
-          {/* Small credibility strip — reinforces trust without being loud */}
+          {/* Small credibility strip, reinforces trust without being loud */}
           <div className="mt-14 flex flex-wrap items-center gap-x-8 gap-y-3 text-[0.82rem] text-charcoal/55">
             <span className="flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-sage" />

@@ -33,25 +33,25 @@ export const comparisons: Comparison[] = [
   {
     slug: "lions-mane-vs-reishi",
     title: "Lion's Mane vs Reishi",
-    subtitle: "Cognition vs calm — which mushroom fits your goal?",
+    subtitle: "Cognition vs calm, which mushroom fits your goal?",
     metaDescription:
       "Lion's Mane is studied for focus and memory; Reishi for stress and sleep. Evidence-based comparison of benefits, compounds, timing, and how to stack them.",
     geoIntro:
       "Lion's Mane (Hericium erinaceus) and Reishi (Ganoderma lucidum) are two of the most popular functional mushrooms, but they work through different mechanisms and target different goals. Lion's Mane is primarily studied for cognition and Nerve Growth Factor (NGF); Reishi is primarily studied for stress, sleep, and immune modulation.",
-    tldr: "Take Lion's Mane in the morning for focus, memory, and mental clarity. Take Reishi in the evening for stress, sleep, and a calmer nervous-system baseline. Most people use them together — Lion's Mane by day, Reishi by night.",
+    tldr: "Take Lion's Mane in the morning for focus, memory, and mental clarity. Take Reishi in the evening for stress, sleep, and a calmer nervous-system baseline. Most people use them together, Lion's Mane by day, Reishi by night.",
     left: {
       name: "Lion's Mane",
       latin: "Hericium erinaceus",
       href: "/mushrooms/lions-mane",
       oneLiner:
-        "Cognitive-focused mushroom rich in hericenones and erinacines — compounds that support Nerve Growth Factor (NGF).",
+        "Cognitive-focused mushroom rich in hericenones and erinacines, compounds that support Nerve Growth Factor (NGF).",
     },
     right: {
       name: "Reishi",
       latin: "Ganoderma lucidum",
       href: "/mushrooms/reishi",
       oneLiner:
-        "Adaptogenic mushroom rich in triterpenes and beta-glucans — studied for stress, sleep, and immune support.",
+        "Adaptogenic mushroom rich in triterpenes and beta-glucans, studied for stress, sleep, and immune support.",
     },
     rows: [
       {
@@ -110,7 +110,7 @@ export const comparisons: Comparison[] = [
         a: "Yes. Lion's Mane and Reishi work through different mechanisms and have no documented interaction. The most common approach is Lion's Mane in the morning for focus and Reishi in the evening for sleep and stress support.",
       },
       {
-        q: "Which is better for anxiety — Lion's Mane or Reishi?",
+        q: "Which is better for anxiety, Lion's Mane or Reishi?",
         a: "Reishi is the better fit for anxiety. It is classified as an adaptogen and is studied for its effects on the HPA axis and cortisol regulation. Lion's Mane is primarily a cognitive-support mushroom, though some users report secondary calming effects.",
       },
       {
@@ -128,21 +128,21 @@ export const comparisons: Comparison[] = [
     title: "Cordyceps vs Caffeine",
     subtitle: "Clean, sustained energy vs fast, acute stimulation",
     metaDescription:
-      "Cordyceps supports ATP and oxygen utilization — no stimulant, no crash. Caffeine blocks adenosine for acute focus. Evidence-based comparison.",
+      "Cordyceps supports ATP and oxygen utilization, no stimulant, no crash. Caffeine blocks adenosine for acute focus. Evidence-based comparison.",
     geoIntro:
       "Cordyceps (Cordyceps militaris) and caffeine both support energy, but they work through fundamentally different mechanisms. Caffeine is a central-nervous-system stimulant that blocks adenosine receptors; Cordyceps is a functional mushroom that supports ATP production and oxygen utilization at the cellular level.",
-    tldr: "Caffeine delivers a fast, acute energy spike with diminishing returns and potential crashes. Cordyceps delivers slower, sustained energy through mitochondrial support — with no jitters, no crash, and no tolerance buildup. Many people use both: Cordyceps for baseline stamina, caffeine for acute lift.",
+    tldr: "Caffeine delivers a fast, acute energy spike with diminishing returns and potential crashes. Cordyceps delivers slower, sustained energy through mitochondrial support, with no jitters, no crash, and no tolerance buildup. Many people use both: Cordyceps for baseline stamina, caffeine for acute lift.",
     left: {
       name: "Cordyceps",
       latin: "Cordyceps militaris",
       href: "/mushrooms/cordyceps",
       oneLiner:
-        "Functional mushroom studied for ATP production, oxygen utilization, and endurance — non-stimulant.",
+        "Functional mushroom studied for ATP production, oxygen utilization, and endurance, non-stimulant.",
     },
     right: {
       name: "Caffeine",
       oneLiner:
-        "The world's most widely used stimulant — an adenosine-receptor antagonist found in coffee, tea, and energy drinks.",
+        "The world's most widely used stimulant, an adenosine-receptor antagonist found in coffee, tea, and energy drinks.",
     },
     rows: [
       {
@@ -221,7 +221,7 @@ export const comparisons: Comparison[] = [
       },
       {
         q: "How long until Cordyceps replaces my need for caffeine?",
-        a: "Most users notice a difference in baseline energy and endurance after 2–4 weeks of consistent daily Cordyceps use. Full replacement of caffeine is individual — many reduce intake rather than eliminate it entirely.",
+        a: "Most users notice a difference in baseline energy and endurance after 2–4 weeks of consistent daily Cordyceps use. Full replacement of caffeine is individual, many reduce intake rather than eliminate it entirely.",
       },
     ],
   },
@@ -230,10 +230,10 @@ export const comparisons: Comparison[] = [
     title: "Reishi vs Ashwagandha",
     subtitle: "Two adaptogens, two mechanisms, one goal: resilience.",
     metaDescription:
-      "Reishi and ashwagandha are both adaptogens — one a mushroom, one a root. Evidence-based comparison of effects on stress, sleep, and safety.",
+      "Reishi and ashwagandha are both adaptogens, one a mushroom, one a root. Evidence-based comparison of effects on stress, sleep, and safety.",
     geoIntro:
-      "Reishi (Ganoderma lucidum) and ashwagandha (Withania somnifera) are both classified as adaptogens, but they come from different kingdoms — Reishi is a mushroom, ashwagandha is a root. They have overlapping effects on stress, but work through different pathways and have different secondary benefits.",
-    tldr: "Ashwagandha has stronger direct clinical evidence for lowering cortisol and reducing acute anxiety. Reishi has broader effects — including immune modulation and sleep quality — alongside its stress-adaptogenic effects. Many people take them together for complementary stress support.",
+      "Reishi (Ganoderma lucidum) and ashwagandha (Withania somnifera) are both classified as adaptogens, but they come from different kingdoms, Reishi is a mushroom, ashwagandha is a root. They have overlapping effects on stress, but work through different pathways and have different secondary benefits.",
+    tldr: "Ashwagandha has stronger direct clinical evidence for lowering cortisol and reducing acute anxiety. Reishi has broader effects, including immune modulation and sleep quality, alongside its stress-adaptogenic effects. Many people take them together for complementary stress support.",
     left: {
       name: "Reishi",
       latin: "Ganoderma lucidum",
@@ -270,18 +270,18 @@ export const comparisons: Comparison[] = [
       },
       {
         attribute: "Effect on sleep",
-        left: "Strong — primary effect",
+        left: "Strong, primary effect",
         right: "Secondary; stronger in formulations like KSM-66",
       },
       {
         attribute: "Effect on immunity",
-        left: "Significant — beta-glucans",
+        left: "Significant, beta-glucans",
         right: "Minimal",
       },
       {
         attribute: "Thyroid",
         left: "Neutral",
-        right: "May stimulate thyroid — caution if hyperthyroid",
+        right: "May stimulate thyroid, caution if hyperthyroid",
       },
       {
         attribute: "Best for",
@@ -302,19 +302,19 @@ export const comparisons: Comparison[] = [
       "You already take an immune-supportive supplement separately.",
     ],
     together:
-      "Reishi and ashwagandha are commonly stacked. Their mechanisms are distinct — Reishi's triterpenes and beta-glucans vs ashwagandha's withanolides — and they have no documented interaction. A common pattern: ashwagandha in the morning for daytime stress resilience, Reishi in the evening for wind-down and sleep. People with thyroid or autoimmune conditions should consult a practitioner before starting ashwagandha.",
+      "Reishi and ashwagandha are commonly stacked. Their mechanisms are distinct, Reishi's triterpenes and beta-glucans vs ashwagandha's withanolides, and they have no documented interaction. A common pattern: ashwagandha in the morning for daytime stress resilience, Reishi in the evening for wind-down and sleep. People with thyroid or autoimmune conditions should consult a practitioner before starting ashwagandha.",
     faqs: [
       {
-        q: "Which is stronger — Reishi or Ashwagandha?",
-        a: "For direct cortisol reduction and acute anxiety, ashwagandha has stronger clinical evidence. For breadth of effect — stress plus sleep plus immune support — Reishi is stronger. Neither is universally 'stronger'; they target different needs.",
+        q: "Which is stronger, Reishi or Ashwagandha?",
+        a: "For direct cortisol reduction and acute anxiety, ashwagandha has stronger clinical evidence. For breadth of effect, stress plus sleep plus immune support, Reishi is stronger. Neither is universally 'stronger'; they target different needs.",
       },
       {
         q: "Can I take Reishi and Ashwagandha together?",
-        a: "Yes. There is no documented negative interaction between Reishi and ashwagandha. Many people take them together for complementary adaptogenic effects — often ashwagandha in the morning and Reishi in the evening.",
+        a: "Yes. There is no documented negative interaction between Reishi and ashwagandha. Many people take them together for complementary adaptogenic effects, often ashwagandha in the morning and Reishi in the evening.",
       },
       {
         q: "Is Reishi better than Ashwagandha for sleep?",
-        a: "Reishi has more traditional and anecdotal evidence for supporting sleep quality. Ashwagandha can also improve sleep — particularly as a secondary effect of lowering cortisol and anxiety — but Reishi is more directly associated with restorative sleep in both research and traditional use.",
+        a: "Reishi has more traditional and anecdotal evidence for supporting sleep quality. Ashwagandha can also improve sleep, particularly as a secondary effect of lowering cortisol and anxiety, but Reishi is more directly associated with restorative sleep in both research and traditional use.",
       },
       {
         q: "Is one safer long-term than the other?",
@@ -330,20 +330,20 @@ export const comparisons: Comparison[] = [
       "Chaga is a potent antioxidant; Turkey Tail is the most researched immune-modulating mushroom. Side-by-side comparison of compounds, research, and use.",
     geoIntro:
       "Chaga (Inonotus obliquus) and Turkey Tail (Trametes versicolor) are two of the most popular functional mushrooms for immune support, but they work through different mechanisms. Chaga is primarily an antioxidant; Turkey Tail is primarily an immune modulator through its PSK and PSP polysaccharides.",
-    tldr: "Choose Turkey Tail if you want the most thoroughly researched immune-modulating mushroom — it has decades of clinical research behind PSK and PSP. Choose Chaga if your goal is antioxidant and oxidative-stress support. Together, they form a comprehensive daily immune stack.",
+    tldr: "Choose Turkey Tail if you want the most thoroughly researched immune-modulating mushroom, it has decades of clinical research behind PSK and PSP. Choose Chaga if your goal is antioxidant and oxidative-stress support. Together, they form a comprehensive daily immune stack.",
     left: {
       name: "Chaga",
       latin: "Inonotus obliquus",
       href: "/mushrooms/chaga",
       oneLiner:
-        "Wild mushroom with one of the highest antioxidant profiles of any known food — rich in SOD, betulinic acid, and melanin.",
+        "Wild mushroom with one of the highest antioxidant profiles of any known food, rich in SOD, betulinic acid, and melanin.",
     },
     right: {
       name: "Turkey Tail",
       latin: "Trametes versicolor",
       href: "/mushrooms/turkey-tail",
       oneLiner:
-        "Most clinically researched functional mushroom for immune modulation and gut health — rich in PSK, PSP, and beta-glucans.",
+        "Most clinically researched functional mushroom for immune modulation and gut health, rich in PSK, PSP, and beta-glucans.",
     },
     rows: [
       {
@@ -358,13 +358,13 @@ export const comparisons: Comparison[] = [
       },
       {
         attribute: "Antioxidant strength",
-        left: "Very high — among the highest ORAC scores of any food",
+        left: "Very high, among the highest ORAC scores of any food",
         right: "Moderate",
       },
       {
         attribute: "Immune evidence",
         left: "Supporting (indirect via antioxidant pathways)",
-        right: "Strong — decades of clinical research",
+        right: "Strong, decades of clinical research",
       },
       {
         attribute: "Gut microbiome",
@@ -378,8 +378,8 @@ export const comparisons: Comparison[] = [
       },
       {
         attribute: "Traditional use",
-        left: "Siberia and Northern Europe — brewed as tea",
-        right: "East Asia — used in clinical oncology in Japan",
+        left: "Siberia and Northern Europe, brewed as tea",
+        right: "East Asia, used in clinical oncology in Japan",
       },
       {
         attribute: "Best for",
@@ -403,7 +403,7 @@ export const comparisons: Comparison[] = [
       "Chaga and Turkey Tail pair well because their mechanisms are complementary rather than overlapping. Chaga's antioxidant compounds address oxidative stress; Turkey Tail's PSK, PSP, and beta-glucans directly support immune modulation and gut microbiome balance. Taken together, they provide comprehensive daily immune resilience. If you are on blood-thinning or diabetes medication, consult a healthcare provider before starting Chaga.",
     faqs: [
       {
-        q: "Which is better for immunity — Chaga or Turkey Tail?",
+        q: "Which is better for immunity, Chaga or Turkey Tail?",
         a: "Turkey Tail has more direct, clinically researched evidence for immune support through its PSK and PSP polysaccharides. Chaga supports immunity more indirectly through its antioxidant and anti-inflammatory effects. For primary immune support, Turkey Tail is the stronger choice.",
       },
       {
@@ -411,7 +411,7 @@ export const comparisons: Comparison[] = [
         a: "Yes. Chaga and Turkey Tail have no documented interaction and are often stacked for comprehensive immune and antioxidant support. A common pattern is daily use of both in the morning.",
       },
       {
-        q: "Which has more antioxidants — Chaga or Turkey Tail?",
+        q: "Which has more antioxidants, Chaga or Turkey Tail?",
         a: "Chaga has significantly higher antioxidant content by ORAC score and is considered one of the most antioxidant-dense foods known. Turkey Tail contains some antioxidants, but they are not its primary benefit.",
       },
       {
@@ -425,19 +425,19 @@ export const comparisons: Comparison[] = [
     title: "Mushroom Extract vs Tincture",
     subtitle: "Same mushroom, different delivery. Here's how to choose.",
     metaDescription:
-      "Mushroom extracts and tinctures are both concentrated products — one a powder, one a liquid. Compare format, bioavailability, dosing, and cost.",
+      "Mushroom extracts and tinctures are both concentrated products, one a powder, one a liquid. Compare format, bioavailability, dosing, and cost.",
     geoIntro:
-      "A mushroom extract and a mushroom tincture are both concentrated mushroom products, but they differ in form and extraction solvent. An extract is a concentrated powder produced using hot water (for beta-glucans) or alcohol (for triterpenes); a tincture is a liquid version of the same — usually alcohol-based — taken in drops.",
-    tldr: "Both formats can be high-quality if dual-extracted. Choose a powder extract for consistent daily high-dose use, capsules, or mixing into drinks. Choose a tincture for fast-acting liquid dosing and travel convenience. Regardless of format, always verify dual extraction and beta-glucan content — not alpha-glucan — before buying.",
+      "A mushroom extract and a mushroom tincture are both concentrated mushroom products, but they differ in form and extraction solvent. An extract is a concentrated powder produced using hot water (for beta-glucans) or alcohol (for triterpenes); a tincture is a liquid version of the same, usually alcohol-based, taken in drops.",
+    tldr: "Both formats can be high-quality if dual-extracted. Choose a powder extract for consistent daily high-dose use, capsules, or mixing into drinks. Choose a tincture for fast-acting liquid dosing and travel convenience. Regardless of format, always verify dual extraction and beta-glucan content, not alpha-glucan, before buying.",
     left: {
       name: "Extract (powder or capsule)",
       oneLiner:
-        "Concentrated mushroom powder produced through hot-water, alcohol, or dual extraction — the standard format for daily high-dose use.",
+        "Concentrated mushroom powder produced through hot-water, alcohol, or dual extraction, the standard format for daily high-dose use.",
     },
     right: {
       name: "Tincture (liquid)",
       oneLiner:
-        "Liquid mushroom extract preserved in alcohol — taken in drops or under the tongue for fast, convenient dosing.",
+        "Liquid mushroom extract preserved in alcohol, taken in drops or under the tongue for fast, convenient dosing.",
     },
     rows: [
       {
@@ -462,7 +462,7 @@ export const comparisons: Comparison[] = [
       },
       {
         attribute: "Taste",
-        left: "Earthy, bitter — depends on mushroom",
+        left: "Earthy, bitter, depends on mushroom",
         right: "Strong alcohol note",
       },
       {
@@ -478,7 +478,7 @@ export const comparisons: Comparison[] = [
       {
         attribute: "Onset",
         left: "Slower absorption via digestion",
-        right: "Faster — sublingual absorption possible",
+        right: "Faster, sublingual absorption possible",
       },
       {
         attribute: "Alcohol content",
@@ -499,7 +499,7 @@ export const comparisons: Comparison[] = [
       "You don't mind an alcohol-based preparation.",
     ],
     together:
-      "Many users keep both: a powder or capsule extract for daily home use and a tincture for travel, the office, or on-the-go dosing. The active compounds are the same — what matters is that both are dual-extracted (hot-water plus alcohol) and that the label specifies beta-glucan content rather than total polysaccharides. Alpha-glucans come from fillers like grain and are not the bioactive target.",
+      "Many users keep both: a powder or capsule extract for daily home use and a tincture for travel, the office, or on-the-go dosing. The active compounds are the same, what matters is that both are dual-extracted (hot-water plus alcohol) and that the label specifies beta-glucan content rather than total polysaccharides. Alpha-glucans come from fillers like grain and are not the bioactive target.",
     faqs: [
       {
         q: "Is a mushroom extract better than a tincture?",
@@ -507,7 +507,7 @@ export const comparisons: Comparison[] = [
       },
       {
         q: "Do mushroom tinctures contain alcohol?",
-        a: "Yes. Tinctures are alcohol-based by definition — typically 25–40% alcohol by volume — which both extracts the fat-soluble compounds and preserves the final product. Alcohol-free glycerin tinctures exist but extract fewer compounds.",
+        a: "Yes. Tinctures are alcohol-based by definition, typically 25–40% alcohol by volume, which both extracts the fat-soluble compounds and preserves the final product. Alcohol-free glycerin tinctures exist but extract fewer compounds.",
       },
       {
         q: "What is a dual extract and why does it matter?",
@@ -515,7 +515,7 @@ export const comparisons: Comparison[] = [
       },
       {
         q: "Do I need a dual-extracted product?",
-        a: "For Reishi, Chaga, and most premium functional mushrooms — yes. For Cordyceps and Turkey Tail, where beta-glucans are the primary target, a hot-water extract may be sufficient. Always check the label for specific beta-glucan content.",
+        a: "For Reishi, Chaga, and most premium functional mushrooms, yes. For Cordyceps and Turkey Tail, where beta-glucans are the primary target, a hot-water extract may be sufficient. Always check the label for specific beta-glucan content.",
       },
     ],
   },

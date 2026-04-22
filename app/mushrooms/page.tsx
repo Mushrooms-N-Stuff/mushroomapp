@@ -10,7 +10,7 @@ export default function MushroomsIndex() {
     <PageShell
       eyebrow="Library"
       title="Functional mushrooms, one by one."
-      description="Evidence-based overviews of the most researched functional mushrooms — mechanisms, dosage, safety, and what the studies actually show."
+      description="Evidence-based overviews of the most researched functional mushrooms, mechanisms, dosage, safety, and what the studies actually show."
     >
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-content">
         {mushrooms.map((m) => (

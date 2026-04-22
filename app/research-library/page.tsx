@@ -9,7 +9,7 @@ export default function ResearchLibrary() {
     <PageShell
       eyebrow="Research library"
       title="Simplified research summaries."
-      description="Organized by mushroom, health benefit, and strength of evidence — so you can find what the science actually says."
+      description="Organized by mushroom, health benefit, and strength of evidence, so you can find what the science actually says."
     >
       <div className="max-w-content">
         <div className="flex flex-wrap gap-2 mb-10">

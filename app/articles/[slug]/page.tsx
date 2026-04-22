@@ -9,7 +9,7 @@ const articleData: Record<string, ArticleTemplateProps> = {
     eyebrow: "Cognition",
     title: "Lion's Mane and the Science of Mental Clarity",
     summary:
-      "Lion's Mane (Hericium erinaceus) is one of the most studied mushrooms for cognition. Research points to effects on nerve growth factor (NGF), mild cognitive support, and mood — though the evidence is more promising than definitive.",
+      "Lion's Mane (Hericium erinaceus) is one of the most studied mushrooms for cognition. Research points to effects on nerve growth factor (NGF), mild cognitive support, and mood, though the evidence is more promising than definitive.",
     category: "Lion's Mane",
     readingTime: "8 min read",
     publishedAt: "April 2026",
@@ -24,11 +24,11 @@ const articleData: Record<string, ArticleTemplateProps> = {
     howItWorks: [
       {
         title: "Nerve growth factor (NGF)",
-        body: "Lion's Mane contains hericenones (in the fruiting body) and erinacines (in the mycelium) — compounds that have been shown in lab studies to stimulate NGF production. NGF supports the growth, maintenance, and repair of neurons.",
+        body: "Lion's Mane contains hericenones (in the fruiting body) and erinacines (in the mycelium), compounds that have been shown in lab studies to stimulate NGF production. NGF supports the growth, maintenance, and repair of neurons.",
       },
       {
         title: "BDNF and neuroplasticity",
-        body: "Some research suggests Lion's Mane may also influence brain-derived neurotrophic factor (BDNF), another protein involved in neuroplasticity — the brain's ability to form new connections.",
+        body: "Some research suggests Lion's Mane may also influence brain-derived neurotrophic factor (BDNF), another protein involved in neuroplasticity, the brain's ability to form new connections.",
       },
       {
         title: "Anti-inflammatory effects",
@@ -44,18 +44,18 @@ const articleData: Record<string, ArticleTemplateProps> = {
     dosage: {
       range: "500 mg – 3,000 mg per day",
       notes:
-        "Most human trials have used doses in this range, typically split across morning and afternoon. Effects appear to build over weeks rather than hours. Extract concentration matters more than raw weight — look for standardized beta-glucans.",
+        "Most human trials have used doses in this range, typically split across morning and afternoon. Effects appear to build over weeks rather than hours. Extract concentration matters more than raw weight, look for standardized beta-glucans.",
     },
     safety: [
       "Generally well-tolerated; side effects in trials are rare and mild (mostly digestive).",
       "Allergic reactions are possible, especially for people sensitive to other fungi.",
-      "Long-term safety data is limited — most studies are 8–16 weeks.",
+      "Long-term safety data is limited, most studies are 8–16 weeks.",
       "Consult your doctor if pregnant, nursing, or taking blood thinners.",
     ],
     researchHighlights: [
       {
         summary:
-          "A 16-week Japanese trial in adults with mild cognitive impairment found significant improvements on a cognitive function scale vs. placebo — effects diminished after discontinuation.",
+          "A 16-week Japanese trial in adults with mild cognitive impairment found significant improvements on a cognitive function scale vs. placebo, effects diminished after discontinuation.",
         citation: "Mori et al., Phytotherapy Research, 2009",
       },
       {
@@ -91,21 +91,21 @@ const articleData: Record<string, ArticleTemplateProps> = {
       },
       {
         q: "What is the right Lion's Mane dosage?",
-        a: "Most human studies use 500–3,000 mg per day of a standardized extract, often split into two doses. Effects typically build over 4–8 weeks. Informational only — check with a healthcare provider for personal guidance.",
+        a: "Most human studies use 500–3,000 mg per day of a standardized extract, often split into two doses. Effects typically build over 4–8 weeks. Informational only, check with a healthcare provider for personal guidance.",
       },
       {
         q: "Are there Lion's Mane side effects?",
-        a: "Reported side effects are rare and mild — most commonly digestive discomfort. Allergic reactions are possible. Long-term safety data is limited because most trials run 8–16 weeks.",
+        a: "Reported side effects are rare and mild, most commonly digestive discomfort. Allergic reactions are possible. Long-term safety data is limited because most trials run 8–16 weeks.",
       },
       {
         q: "Can Lion's Mane help with brain fog?",
-        a: "Small trials and anecdotal reports suggest Lion's Mane may help with day-to-day mental clarity, particularly for people with mild cognitive complaints. It shouldn't be considered a treatment — but the research on cognition is among the most promising of any functional mushroom.",
+        a: "Small trials and anecdotal reports suggest Lion's Mane may help with day-to-day mental clarity, particularly for people with mild cognitive complaints. It shouldn't be considered a treatment, but the research on cognition is among the most promising of any functional mushroom.",
       },
     ],
     related: [
       {
         href: "/mushrooms/lions-mane",
-        label: "Lion's Mane — Full overview",
+        label: "Lion's Mane, Full overview",
         kind: "mushroom",
       },
       {

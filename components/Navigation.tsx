@@ -24,7 +24,7 @@ export default function Navigation() {
         <Link
           href="/"
           className="flex items-center group"
-          aria-label="Mushrooms & Stuff — Evidence-based functional mushrooms"
+          aria-label="Mushrooms & Stuff, Evidence-based functional mushrooms"
         >
           {/* Full horizontal lockup on larger screens */}
           <Image

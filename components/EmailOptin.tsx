@@ -17,7 +17,7 @@ export default function EmailOptin() {
   return (
     <section className="container-editorial py-24 lg:py-32">
       <div className="relative overflow-hidden rounded-[2rem] bg-sand border border-forest/10 p-10 lg:p-20">
-        {/* Subtle decorative rule — premium, not spammy */}
+        {/* Subtle decorative rule, premium, not spammy */}
         <div className="absolute top-10 right-10 hidden lg:flex items-center gap-2 text-forest/40">
           <span className="w-10 h-px bg-forest/20" />
           <span className="text-[0.7rem] uppercase tracking-eyebrow">Free</span>
@@ -37,7 +37,7 @@ export default function EmailOptin() {
             <div className="mt-10 inline-flex items-center gap-3 px-5 py-4 rounded-full bg-forest/[0.04] border border-forest/10 text-forest">
               <CheckIcon size={18} />
               <span className="text-[0.95rem]">
-                Check your inbox — the guide is on its way.
+                Check your inbox, the guide is on its way.
               </span>
             </div>
           ) : (

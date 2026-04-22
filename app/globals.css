@@ -38,7 +38,7 @@
 }
 
 @layer components {
-  /* Subtle organic hero gradient — calm and premium, not psychedelic */
+  /* Subtle organic hero gradient, calm and premium, not psychedelic */
   .hero-gradient {
     background:
       radial-gradient(ellipse 80% 60% at 15% 10%, rgba(163, 181, 160, 0.22), transparent 60%),

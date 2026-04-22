@@ -6,7 +6,7 @@ const guides = [
   {
     slug: "beginners-guide",
     title: "Beginner's Guide to Functional Mushrooms",
-    summary: "Start here — what they are, how they work, and what to expect.",
+    summary: "Start here, what they are, how they work, and what to expect.",
   },
   {
     slug: "choose-supplement",
@@ -21,7 +21,7 @@ const guides = [
   {
     slug: "mushrooms-vs-coffee",
     title: "Functional Mushrooms vs. Coffee",
-    summary: "When to reach for one, the other, or both — and why.",
+    summary: "When to reach for one, the other, or both, and why.",
   },
 ];
 

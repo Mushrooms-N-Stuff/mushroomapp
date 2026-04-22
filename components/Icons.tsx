@@ -1,4 +1,4 @@
-// Minimal, calm line icons — hand-tuned to match editorial brand feel.
+// Minimal, calm line icons, hand-tuned to match editorial brand feel.
 // 1.5px strokes, rounded caps, no psychedelic or cartoon shapes.
 
 import { SVGProps } from "react";
@@ -91,7 +91,7 @@ export function GuideIcon({ size, ...props }: IconProps) {
   );
 }
 
-/** Subtle mushroom mark — the one place we use mushroom shape. Editorial, not cartoon. */
+/** Subtle mushroom mark, the one place we use mushroom shape. Editorial, not cartoon. */
 export function MushroomMark({ size, ...props }: IconProps) {
   return (
     <svg {...base(size)} {...props}>

@@ -72,7 +72,7 @@ export default function ComparisonDetail({
             </p>
           </div>
 
-          {/* TL;DR — the direct answer AI engines love to cite */}
+          {/* TL;DR, the direct answer AI engines love to cite */}
           <section
             aria-labelledby="tldr-heading"
             className="mt-12 p-8 rounded-2xl bg-sand/70 border border-forest/[0.08] max-w-3xl"
@@ -123,7 +123,7 @@ export default function ComparisonDetail({
             </div>
           </section>
 
-          {/* Comparison table — structured for AI extraction */}
+          {/* Comparison table, structured for AI extraction */}
           <section
             aria-labelledby="compare-table-heading"
             className="mt-16"

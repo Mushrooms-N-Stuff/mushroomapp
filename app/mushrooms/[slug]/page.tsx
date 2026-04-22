@@ -24,7 +24,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     description,
     alternates: { canonical: `/mushrooms/${m.slug}` },
     openGraph: {
-      title: `${m.name} — ${m.tagline}`,
+      title: `${m.name}, ${m.tagline}`,
       description,
       url: `/mushrooms/${m.slug}`,
       type: "article",
@@ -71,14 +71,14 @@ export default function MushroomDetail({
         backLabel="All mushrooms"
       >
         <div className="max-w-content">
-          {/* GEO-optimized definition lead — first citable paragraph */}
+          {/* GEO-optimized definition lead, first citable paragraph */}
           <div className="max-w-3xl">
             <p className="text-[1.125rem] leading-relaxed text-charcoal/80">
               {m.geoIntro}
             </p>
           </div>
 
-          {/* Key takeaways — structured for AI extraction */}
+          {/* Key takeaways, structured for AI extraction */}
           <section
             aria-labelledby="key-facts-heading"
             className="mt-12 p-8 rounded-2xl bg-sand/70 border border-forest/[0.08] max-w-3xl"
@@ -102,7 +102,7 @@ export default function MushroomDetail({
             </ul>
           </section>
 
-          {/* Active compounds — entity signals for AI */}
+          {/* Active compounds, entity signals for AI */}
           <section
             aria-labelledby="compounds-heading"
             className="mt-12 max-w-3xl"
@@ -128,7 +128,7 @@ export default function MushroomDetail({
             </div>
           </section>
 
-          {/* FAQ — GEO gold, matched with FAQPage schema above */}
+          {/* FAQ, GEO gold, matched with FAQPage schema above */}
           <section
             aria-labelledby="faq-heading"
             className="mt-16 max-w-3xl"

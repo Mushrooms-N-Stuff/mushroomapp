@@ -193,7 +193,7 @@ export default function ArticleTemplate(props: ArticleTemplateProps) {
             <section id="how-it-works" className="scroll-mt-28">
               <h2>How It Works</h2>
               <p>
-                Here's a simplified look at the mechanism of action — how the
+                Here's a simplified look at the mechanism of action, how the
                 compounds involved are thought to produce the effects reported in
                 the research.
               </p>
@@ -249,7 +249,7 @@ export default function ArticleTemplate(props: ArticleTemplateProps) {
               <h2>Research Highlights</h2>
               <p>
                 Simplified bullet summaries of notable studies. Each item
-                summarizes a single finding — follow the citations for the full
+                summarizes a single finding, follow the citations for the full
                 context.
               </p>
               <div className="mt-6 space-y-4">

@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "./Icons";
 const pillars = [
   {
     k: "Peer-reviewed sources",
-    v: "Every claim is traceable to published research — studies, meta-analyses, systematic reviews.",
+    v: "Every claim is traceable to published research, studies, meta-analyses, systematic reviews.",
   },
   {
     k: "Plain-language summaries",

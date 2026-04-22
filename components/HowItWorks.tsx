@@ -14,7 +14,7 @@ const steps = [
     Icon: TranslateIcon,
     title: "We translate findings into clear insights",
     body:
-      "We distill what the evidence actually says into plain language — without hype, hedging, or academic jargon.",
+      "We distill what the evidence actually says into plain language, without hype, hedging, or academic jargon.",
   },
   {
     n: "03",
@@ -31,7 +31,7 @@ export default function HowItWorks() {
       <SectionHeader
         eyebrow="How it works"
         title="A simple, transparent process."
-        description="We read the research so you don't have to — then we show our work."
+        description="We read the research so you don't have to, then we show our work."
       />
 
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">

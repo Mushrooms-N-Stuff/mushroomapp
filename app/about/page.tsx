@@ -7,7 +7,7 @@ export default function About() {
     <PageShell
       eyebrow="About"
       title="We read the research so you don't have to."
-      description="Mushrooms & Stuff is an editorial publication focused on functional mushrooms — grounded in science, translated into plain language, and built to respect your time."
+      description="Mushrooms & Stuff is an editorial publication focused on functional mushrooms, grounded in science, translated into plain language, and built to respect your time."
     >
       <div className="prose-article max-w-reading">
         <p>
@@ -19,7 +19,7 @@ export default function About() {
         <p>
           Our approach is simple: we read the studies, summarize what they
           actually found, and point toward quality products when the evidence
-          warrants it — and not when it doesn't.
+          warrants it, and not when it doesn't.
         </p>
         <h2>What we cover</h2>
         <p>

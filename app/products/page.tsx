@@ -11,7 +11,7 @@ export default function Products() {
     >
       <div className="prose-article max-w-reading">
         <p>
-          Our primary affiliate partner is <a href="https://www.realmushrooms.com/" target="_blank" rel="nofollow sponsored noopener">Real Mushrooms</a> —
+          Our primary affiliate partner is <a href="https://www.realmushrooms.com/" target="_blank" rel="nofollow sponsored noopener">Real Mushrooms</a>,
           100% organic fruiting bodies, third-party tested for beta-glucans,
           and transparently labeled.
         </p>

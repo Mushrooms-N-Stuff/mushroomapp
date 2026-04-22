@@ -25,11 +25,11 @@ const serif = Libre_Baskerville({
 export const metadata: Metadata = {
   title: {
     default:
-      "Mushrooms & Stuff — Functional mushrooms, explained by the research",
-    template: "%s — Mushrooms & Stuff",
+      "Mushrooms & Stuff, Functional mushrooms, explained by the research",
+    template: "%s, Mushrooms & Stuff",
   },
   description:
-    "Evidence-based guidance on functional mushrooms — Lion's Mane, Reishi, Cordyceps, Chaga, and Turkey Tail — for focus, stress, energy, immunity, and longevity.",
+    "Evidence-based guidance on functional mushrooms, Lion's Mane, Reishi, Cordyceps, Chaga, and Turkey Tail, for focus, stress, energy, immunity, and longevity.",
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: "/",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Mushrooms & Stuff — Evidence-based functional mushrooms",
+        alt: "Mushrooms & Stuff, Evidence-based functional mushrooms",
       },
     ],
   },

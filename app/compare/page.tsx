@@ -5,9 +5,9 @@ import { comparisons } from "@/lib/comparisons";
 import { breadcrumbSchema } from "@/lib/seo";
 
 export const metadata = {
-  title: "Compare — Functional Mushroom Comparisons",
+  title: "Compare, Functional Mushroom Comparisons",
   description:
-    "Side-by-side, evidence-based comparisons of functional mushrooms and supplements — Lion's Mane vs Reishi, Cordyceps vs caffeine, Reishi vs ashwagandha, and more.",
+    "Side-by-side, evidence-based comparisons of functional mushrooms and supplements, Lion's Mane vs Reishi, Cordyceps vs caffeine, Reishi vs ashwagandha, and more.",
   alternates: { canonical: "/compare" },
 };
 
@@ -23,7 +23,7 @@ export default function ComparePage() {
       <PageShell
         eyebrow="Compare"
         title="Mushroom comparisons, side by side."
-        description="Evidence-based comparisons for the questions real people ask — which mushroom fits which goal, and how to choose between them."
+        description="Evidence-based comparisons for the questions real people ask, which mushroom fits which goal, and how to choose between them."
       >
         <div className="max-w-content">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
